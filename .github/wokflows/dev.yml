@@ -8,11 +8,11 @@ job:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-    run: |
-      mkdir temp
-      cd temp
-      touch test.txt
-      
+      run: |
+        mkdir temp
+        cd temp
+        touch test.txt
+
 
         
 
