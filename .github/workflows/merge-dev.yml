@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - "**.js"
+      - "**.php"
     branches: ["main"]
 
   pull_request:
